@@ -1,0 +1,11 @@
+# Delete all unused properties.
+
+# Give your module a name
+name: zmk-keyboard-tracktyl-5x6
+build:
+  # List your dependencies
+  depends:
+    - zmk-pmw3360-driver
+  settings:
+    # Folder containing a "boards" folder (. = root)
+    board_root: .

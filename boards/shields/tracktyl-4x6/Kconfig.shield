@@ -1,0 +1,5 @@
+config SHIELD_TRACKTYL_4X6_LEFT
+    def_bool $(shields_list_contains,tracktyl-4x6_left)
+
+config SHIELD_TRACKTYL_4X6_RIGHT
+    def_bool $(shields_list_contains,tracktyl-4x6_right)
